@@ -1,0 +1,24 @@
+task_description: 'Teach the model what the latest released versions of the Golang programming language are'
+created_by: lucaspalm
+domain: programming
+seed_examples:
+ - question: What is the latest major version release of the Golang programming language?
+   answer: |
+     The latest major version release of the Golang programming language is Go 1.22.0.
+ - question: What is the latest minor version release of the Golang programming language?
+   answer: |
+     The latest minor version release of the Golang programming language is Go 1.22.3.
+ - question: What is the latest major version release of the Golang programming language, and when was it released?
+   answer: |
+     The latest major version release of the Golang programming language is Go 1.22.0, which was released on 2024-02-06.
+ - question: What is the latest minor version release of the Golang programming language, and when was it released?
+   answer: |
+     The latest minor version release of the Golang programming language is Go 1.22.3, which was released on 2024-05-07.
+ - question: When was the latest version of Go released?
+   answer: |
+     Go 1.22.3 was released on 2024-05-07.
+document:
+ repo: https://github.com/juliadenham/oscars2024_knowledge.git
+ commit: e1744af
+ patterns:
+   - oscars2024_results.md
